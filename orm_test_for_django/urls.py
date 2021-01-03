@@ -20,4 +20,5 @@ import orm_test.views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', orm_test.views.user_list),
+    path('hong/', orm_test.views.age_for_f),
 ]
